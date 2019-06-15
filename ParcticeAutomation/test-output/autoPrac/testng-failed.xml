@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [autoPrac]" parallel="tests">
+  <test thread-count="2" name="ShopPageTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.practiceAutomation.tests.ShopPageTests">
+        <methods>
+          <include name="verifySlidersCount"/>
+          <include name="browserSetup"/>
+          <include name="quiteBrowser"/>
+        </methods>
+      </class> <!-- com.practiceAutomation.tests.ShopPageTests -->
+    </classes>
+  </test> <!-- ShopPageTest(failed) -->
+</suite> <!-- Failed suite [autoPrac] -->

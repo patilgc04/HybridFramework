@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="autoPrac" parallel="tests" thread-count="2">
+    <test name="ShopPageTest">
+        <packages>
+            <package name="com.practiceAutomation.tests" />
+        </packages>
+    </test>
+ 
+    
+</suite>
